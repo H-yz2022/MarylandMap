@@ -97,9 +97,9 @@
             }
         }),
         loadGeoJSON('static/geojson/centroid.geojson', { style: { color: 'yellow', weight: 1 } }),
-        loadGeoJSON('static/geojson/filter1.geojson', { style: { color: 'red', weight: 2 } }),
-        loadGeoJSON('static/geojson/filter2.geojson', { style: { color: 'blue', weight: 2 } }),
-        loadGeoJSON('static/geojson/filter3.geojson', { style: { color: 'green', weight: 2 } }),
+        loadGeoJSON('static/geojson/filter1.geojson', { style: { color: '#08519c', weight: 2 } }),
+        loadGeoJSON('static/geojson/filter2.geojson', { style: { color: '#ef3b2c', weight: 2 } }),
+        loadGeoJSON('static/geojson/filter3.geojson', { style: { color: '#4292c6', weight: 2 } }),
         loadGeoJSON('static/geojson/filter4.geojson', { style: { color: 'orange', weight: 2 } })
     ]).then(function(layers) {
         if (!layers.every(layer => layer)) {
